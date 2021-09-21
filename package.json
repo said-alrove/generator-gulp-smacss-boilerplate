@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "yeoman-generator": "^5.4.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/said-alrove/generator-gulp-smacss-boilerplate.git"
@@ -18,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/said-alrove/generator-gulp-smacss-boilerplate/issues"
   },
-  "homepage": "https://github.com/said-alrove/generator-gulp-smacss-boilerplate#readme",
-  "devDependencies": {
-    "yeoman-generator": "^5.4.2"
-  }
+  "homepage": "https://github.com/said-alrove/generator-gulp-smacss-boilerplate#readme"
 }
