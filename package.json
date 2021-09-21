@@ -11,9 +11,7 @@
     "url": "git+https://github.com/said-alrove/generator-gulp-smacss-boilerplate.git"
   },
   "keywords": [
-    "yeoman-generator",
-    "gulp",
-    "smacss"
+    "yeoman-generator"
   ],
   "author": "@said_alrove",
   "license": "ISC",
