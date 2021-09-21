@@ -3,12 +3,12 @@ This is a boilerplate of the structure that I'm currently using in my projects w
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
 
-## **Commands**
+## Commands
 * First, you'll need to install the Yeoman dependency globally by running the `npm install -g yo` command.
-* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-smacss-boilerplate`.
-* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-smacss-boilerplate`.
+* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-smacss-boilerplate` command.
+* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-smacss-boilerplate` command.
 
-    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-smacss-boilerplate`.
+    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-smacss-boilerplate` command.
 
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.
 
