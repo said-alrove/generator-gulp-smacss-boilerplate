@@ -1,6 +1,6 @@
 {
   "name": "generator-gulp-smacss-boilerplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Boilerplate generator for a Gulp/SMACSS structure project",
   "main": "index.js",
   "scripts": {
