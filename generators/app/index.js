@@ -27,10 +27,6 @@ module.exports = class extends Generator {
             this.destinationPath('.gitmodules')
         );
         this.fs.copy(
-            this.templatePath('important.md'),
-            this.destinationPath('important.md')
-        );
-        this.fs.copy(
             this.templatePath('netlify.toml'),
             this.destinationPath('netlify.toml')
         );
