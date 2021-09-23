@@ -10,6 +10,11 @@ This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/
 
     - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-smacss-boilerplate` command.
 
+* You also will need to install **Gulp CLI** in your machine by running the `npm install -g gulp-cli` (if it's your case that you don't have it already).
+* Once the boilerplate is generated, you'll have to run the **gulp** command every time you want to see your changes processed.
+
+    - When running this command, Gulp will open a local server to see your changes in real-time.
+
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.
 
 ![](https://cdn.swapps.com/uploads/2017/03/starting-with-smacss-1.jpg)
@@ -29,6 +34,7 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 - [What's Yeoman?](#whats-yeoman)
 - [Guide](#guide)
     - [General](#general)
+    - [SMACSS](#smacss)
     - [Icons](#icons)
     - [Netlify](#netlify)
     - [Gulp tasks](#gulp-tasks)
@@ -44,7 +50,9 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 ### **General**
 * Don't worry about the unnecessary files that are added when updating the vendors such as the `README.md` file of lessier or the directory with the same name that's dedicated to saving the images needed for the `README.md` because this boilerplate already counts with those directories added to the .gitignore file, therefore they won't be reflected when pushing commits to upstream.
 
-* All the empty directories include a .gitkeep file (this is because Git ignores empty folders when pushing to upstream), you have totally freedom to remove it when cloning this repository if you want.
+* The boilerplate includes the **src** and **public** directories already created because the **gulp** command was tested before uploading this boilerplate (that's the reason why there's an image and an icon in the **assets** directory just to see how the final result would be), but you can remove the **public** directory and the example assets that are in the **src** directory if you want, and then run the **gulp** command once you've put your own assets in the **src** directory to generate a new **public** directory.
+
+    - In theory, it's totally unnecessary to leave the example assets in the uploaded version because their only use-case is for testing the generator before publishing it, but the problem is that **Npm** ignores empty directories, therefore I considered it better to leave those files there to avoid problems with empty folders.
 
 * The project includes a README boilerplate for the final version that will be pushed to the Git repository. This boilerplate includes:
 
@@ -57,6 +65,15 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 * Both, the public and the src directories will be included when pushing changes to upstream, but the public can be removed if you want just by adding the directory to the .gitignore file.
 
     > **Disclaimer:** be careful when removing the public directory from upstream, keep in mind that if you're hosting your files in Git itself, then, the optimized version of your project won't be visible for Netlify (or whatever deployment platform you're using) in case you have your site synchronized with the git repository of your project (otherwise you can just drop all the files and everything will be visible), therefore keep an eye on the absolute paths you're using in your files to avoid errors when loading the assets.
+
+### **SMACSS**
+* If you'd like to know more about what's each **SASS** directory about, you can check these articles for more information:
+
+- [CSS Architecture with SASS, SMACSS, and BEM.](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148)
+- [Exploring SMACSS: Scalable and Modular Architecture for CSS](https://www.toptal.com/css/smacss-scalable-modular-architecture-css)
+- [What is SMACSS and how to use it](https://swapps.com/blog/what-is-smacss-and-how-to-use-it/)
+
+> **Note:** the versions shown in those articles may vary from mine and it's ok, at the end of the day a project structure is different depending on the project needs and differs from person to person, from team to team, and even from companies to companies, therefore this is my own interpretation of a pattern that already exists, but feel free of modifying it if it's necessary.
 
 ### **Icons**
 * Remember to use [Iconifier](https://iconifier.net/) to create all the icon-size versions of an image.
