@@ -59,6 +59,8 @@ To understand this boilerplate at all you'll need to have a slight notion about 
     - A **disclaimer** (this is personal, you can remove it if it's not your case that you're learning Git/Github).
     - A **table of contents** linked to all the headings in the README.
     - A **what I learned** section to include everything you learned while creating that project.
+    - A **lectures** section to include those articles that you read while doing the project and that helped you to build it.
+    - A **preview** section to include the screenshot of your project as a preview of it.
     - A **reports** section to include the results of the reports (as screenshots) of services like [Lighthouse](https://developers.google.com/web/tools/lighthouse) or [GTmetrix](https://gtmetrix.com/).
     - An **Open-graph** section to include the Open-graph cards of both Twitter and Facebook (you can remove it if it's the case that you didn't include the Open-graph tags in you project).
 
