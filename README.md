@@ -2,17 +2,41 @@
 
 ![](README-banner.png)
 
+This is a boilerplate of the structure that I'm currently using in my projects when choosing the SMACSS architecture, this will be uploaded over time.
+
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
 
-## Commands
-* First, you'll need to install the Yeoman dependency globally by running the `npm install -g yo` command.
-* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-smacss-boilerplate` command.
-* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-smacss-boilerplate` command.
+## Installation 
+First, You'll need to install the **Yeoman** dependency globally by using the `npm install -g yo` command.
 
-    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-smacss-boilerplate` command.
+```
+    npm install -g yo
+```
 
-* You also will need to install **Gulp CLI** in your machine by running the `npm install -g gulp-cli` (if it's your case that you don't have it already).
-* Once the boilerplate is generated, you'll have to run the **gulp** command every time you want to see your changes processed.
+Then, you should install this boilerplate globally by using the `npm install -g generator-gulp-smacss-boilerplate` command.
+
+``` 
+    npm install -g generator-gulp-smacss-boilerplate
+```
+
+And, as the last step, you have to go to the directory where you'd like to download this boilerplate and then use the `yo gulp-smacss-boilerplate` command.
+
+```
+    yo gulp-smacss-boilerplate
+```
+
+- In case that the package has been updated you can bring the new version to your machine by running the `npm update -g generator-gulp-smacss-boilerplate` command.
+    ```
+        npm update -g generator-gulp-smacss-boilerplate
+    ```
+
+* You also will need to install **Gulp CLI** in your machine **if it's your case that you don't have it already** by running the `npm install -g gulp-cli` command.
+
+    ```
+        npm install -g gulp-cli
+    ```
+
+* Once the boilerplate is generated, you'll have to run the `gulp` command every time you want to see your changes processed.
 
     - When running this command, Gulp will open a local server to see your changes in real-time.
 
@@ -22,14 +46,7 @@ This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/
 
 > **Note:** this boilerplate is automatically generated just by typing a command in the CL thanks to Yeoman.
 
-To understand this boilerplate at all you'll need to have a slight notion about these things:
-    
-- Git.
-- Gulp.js.
-- Javascript.
-- HTML/CSS/SASS.
-- CSS architecture.
-- Netlify **(not mandatory)**.
+To understand this boilerplate at all you'll need to have a slight notion about [**Git**](https://git-scm.com/), [**Gulp.js**](https://gulpjs.com/), [**HTML5**](https://en.wikipedia.org/wiki/HTML5), [**CSS3**](https://en.wikipedia.org/wiki/CSS), [**Javascript**](https://www.javascript.com/), [**SASS**](https://sass-lang.com/), [**Netlify**](https://www.netlify.com/).
 
 ## **Table of contents**
 - [What's Yeoman?](#whats-yeoman)
@@ -72,9 +89,9 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 ### **SMACSS**
 * If you'd like to know more about what's each **SASS** directory about, you can check these articles for more information:
 
-- [CSS Architecture with SASS, SMACSS, and BEM.](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148)
-- [Exploring SMACSS: Scalable and Modular Architecture for CSS](https://www.toptal.com/css/smacss-scalable-modular-architecture-css)
-- [What is SMACSS and how to use it](https://swapps.com/blog/what-is-smacss-and-how-to-use-it/)
+    - [CSS Architecture with SASS, SMACSS, and BEM.](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148)
+    - [Exploring SMACSS: Scalable and Modular Architecture for CSS](https://www.toptal.com/css/smacss-scalable-modular-architecture-css)
+    - [What is SMACSS and how to use it](https://swapps.com/blog/what-is-smacss-and-how-to-use-it/)
 
 > **Note:** the versions shown in those articles may vary from mine and it's ok, at the end of the day a project structure is different depending on the project needs and differs from person to person, from team to team, and even from companies to companies, therefore this is my own interpretation of a pattern that already exists, but feel free of modifying it if it's necessary.
 
@@ -93,38 +110,38 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 If you don't know anything about what I've mentioned before, I encourage you to leave the file as it's by default, it'll work just perfectly with the current project structure. In case you won't use Netlify to deploy the site you can remove it without problems.
 
 ### **Gulp tasks**
-* The plugins used by default are the following:
+The plugins used by default are the following:
 
-**HTML tasks**
+- **HTML tasks**
 
-- [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
-- [gulp-cache-bust](https://www.npmjs.com/package/gulp-cache-bust)
-- [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
+    - [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
+    - [gulp-cache-bust](https://www.npmjs.com/package/gulp-cache-bust)
+    - [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
 
-**Images tasks**
+- **Images tasks**
 
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [imagemin-mozjpeg](https://www.npmjs.com/package/imagemin-mozjpeg)
-- [imagemin-optipng](https://www.npmjs.com/package/imagemin-optipng)
-- [gulp-webp](https://www.npmjs.com/package/gulp-webp)
-- [imagemin-webp](https://www.npmjs.com/package/imagemin-webp)
-- [gulp-avif](https://www.npmjs.com/package/gulp-avif)
-- [imagemin-avif](https://www.npmjs.com/package/imagemin-avif)
+    - [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
+    - [imagemin-mozjpeg](https://www.npmjs.com/package/imagemin-mozjpeg)
+    - [imagemin-optipng](https://www.npmjs.com/package/imagemin-optipng)
+    - [gulp-webp](https://www.npmjs.com/package/gulp-webp)
+    - [imagemin-webp](https://www.npmjs.com/package/imagemin-webp)
+    - [gulp-avif](https://www.npmjs.com/package/gulp-avif)
+    - [imagemin-avif](https://www.npmjs.com/package/imagemin-avif)
 
-**Javascript tasks**
+- **Javascript tasks**
 
-- [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
-- [gulp-concat](https://www.npmjs.com/package/gulp-concat)
-- [terser](https://www.npmjs.com/package/terser)
+    - [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
+    - [gulp-concat](https://www.npmjs.com/package/gulp-concat)
+    - [terser](https://www.npmjs.com/package/terser)
 
-**Styles tasks**
-- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-- [sass](https://www.npmjs.com/package/sass)
-- [gulp-purgecss](https://www.npmjs.com/package/gulp-purgecss)
-- [plumber](https://www.npmjs.com/package/gulp-plumber)
-- [gulppostcss](https://www.npmjs.com/package/gulp-postcss)
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer)
-- [cssnano](https://www.npmjs.com/package/cssnano)
+- **Styles tasks**
+    - [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+    - [sass](https://www.npmjs.com/package/sass)
+    - [gulp-purgecss](https://www.npmjs.com/package/gulp-purgecss)
+    - [plumber](https://www.npmjs.com/package/gulp-plumber)
+    - [gulppostcss](https://www.npmjs.com/package/gulp-postcss)
+    - [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+    - [cssnano](https://www.npmjs.com/package/cssnano)
 
 > **Note:** if you'd like to know more about what each plugin does you can click the links that send you to the npm package and then read the descriptions for more information.
 
