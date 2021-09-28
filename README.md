@@ -1,5 +1,6 @@
 # [**gulp-smacss-boilerplate**](https://www.npmjs.com/package/generator-gulp-smacss-boilerplate)
-This is a boilerplate of the structure that I'm currently using in my projects when choosing the SMACSS architecture, this will be uploaded over time.
+
+![](README-banner.png)
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
 
