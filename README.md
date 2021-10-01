@@ -1,8 +1,16 @@
 # [**gulp-smacss-boilerplate**](https://www.npmjs.com/package/generator-gulp-smacss-boilerplate)
 
-![](README-banner.png)
+<a href="https://www.npmjs.com/package/generator-gulp-smacss-boilerplate" style="display:block;">
+    <img alt="npm" src="https://img.shields.io/npm/v/generator-gulp-smacss-boilerplate">
+</a>
+
+<a href="https://nodei.co/npm/generator-gulp-smacss-boilerplate/">
+    <img src="https://nodei.co/npm/generator-gulp-smacss-boilerplate.png">
+</a>
 
 This is a boilerplate of the structure that I'm currently using in my projects when choosing the SMACSS architecture, this will be uploaded over time.
+
+![](README-banner.png)
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
 
