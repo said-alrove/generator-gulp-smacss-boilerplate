@@ -1,8 +1,6 @@
 # [**gulp-smacss-boilerplate**](https://www.npmjs.com/package/generator-gulp-smacss-boilerplate)
 
-<a href="https://www.npmjs.com/package/generator-gulp-smacss-boilerplate" style="display:block;">
-    <img alt="npm" src="https://img.shields.io/npm/v/generator-gulp-smacss-boilerplate">
-</a>
+![npm](https://img.shields.io/npm/v/generator-gulp-smacss-boilerplate)
 
 <a href="https://nodei.co/npm/generator-gulp-smacss-boilerplate/">
     <img src="https://nodei.co/npm/generator-gulp-smacss-boilerplate.png">
